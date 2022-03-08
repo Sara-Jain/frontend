@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 0px;
+}
+
+header {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+header nav{
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+}
+
+
+li{
+    /* margin: 10px; */
+    padding: 10px;
+}
+
+main{
+    display: flex;
+}
+section{
+    padding: 20px;
+}
+
+.about-section{
+    width: 40%;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+    .about-section{
+        width: 100%;
+    }
+    .blog-section{
+        width: 100%;
+    }
+}
