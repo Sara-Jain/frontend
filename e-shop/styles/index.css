@@ -1,0 +1,43 @@
+main{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 550px;
+}
+
+#details{
+    width: 50%;
+}
+
+#image-side{
+    width: 50%;
+    background-color: red;
+    justify-content: center;
+}
+
+img{
+    display: block;
+    margin: 115px auto;
+    width: 70%;
+}
+
+h3{
+    color: red;
+    font-size: 1.5em;
+}
+h1{
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    border: red solid;
+    padding: 15px;
+    color: black;
+}
+
+#main-content{
+    text-align: center;
+    margin-top: 120px;
+}
