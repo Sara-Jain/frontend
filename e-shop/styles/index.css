@@ -41,3 +41,15 @@ a{
     text-align: center;
     margin-top: 120px;
 }
+
+@media screen and (max-width: 700px) {
+    main {
+        flex-direction: column;
+    }
+    #details{
+        width: 100%;
+    }
+    #image-side{
+        width: 100%;
+    }
+}
